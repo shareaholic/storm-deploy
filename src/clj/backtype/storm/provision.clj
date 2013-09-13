@@ -23,10 +23,7 @@
 
 (defn jclouds-group [& group-pieces]
   (str "jclouds#"
-       (apply str group-pieces)
-       "#"
-       (my-region)
-       ))
+       (apply str group-pieces)))
 
 (defn- print-ips-for-tag! [aws tag-str]
   (let [running-node (filter running? (map (partial pallet.compute.jclouds/jclouds-node->node aws) (nodes-in-group aws tag-str)))]
