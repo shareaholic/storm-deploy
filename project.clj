@@ -14,7 +14,7 @@
                  [commons-codec "1.4"]
                  [org.cloudhoist/pallet "0.7.3"]
                  [org.cloudhoist/pallet-jclouds "1.5.1"]
-                 [org.cloudhoist/java "0.5.0"]
+                 [org.cloudhoist/java "0.7.1"]
                  [org.cloudhoist/git "0.5.0"]
                  [org.cloudhoist/ssh-key "0.5.0"]
                  [org.cloudhoist/automated-admin-user "0.5.0"]
