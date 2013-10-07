@@ -2,10 +2,10 @@
 # CLUSTERS CONFIG FILE
 ################################################################################
 
-nimbus.image: "us-east-1/ami-fbb2fc92"         # amd64 ubuntu 12.04 instance store 
+nimbus.image: "us-east-1/ami-fbb2fc92"         # amd64 ubuntu 12.04 instance store
 nimbus.hardware: "m1.medium"
 
-supervisor.count: 2 
+supervisor.count: 2
 supervisor.image: "us-east-1/ami-fbb2fc92"         #64-bit ubuntu on eu-east-1
 supervisor.hardware: "c1.xlarge"
 #supervisor.spot.price: 1.60
